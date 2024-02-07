@@ -1,7 +1,7 @@
 variable "common_tags" {
   default = {
     Project     = "roboshop"
-    Enviornment = "dev"
+    Enviornment = "prod"
     Terraform   = "true"
   }
 }
@@ -11,7 +11,7 @@ variable "project_name" {
 }
 
 variable "environment" {
-  default = "dev"
+  default = "prod"
 }
 
 variable "public_subnets_cidr" {
